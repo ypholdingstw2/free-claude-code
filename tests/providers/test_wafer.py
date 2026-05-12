@@ -10,7 +10,7 @@ from api.models.anthropic import Message, MessagesRequest, Tool
 from config.constants import ANTHROPIC_DEFAULT_MAX_OUTPUT_TOKENS
 from providers.base import ProviderConfig
 from providers.wafer import WAFER_DEFAULT_BASE, WaferProvider
-from tests.stream_contract import assert_canonical_stream_error_envelope
+from tests.contracts.stream_contract import assert_canonical_stream_error_envelope
 
 
 class FakeResponse:

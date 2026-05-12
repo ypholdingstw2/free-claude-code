@@ -12,3 +12,6 @@ debug-*.log
 .coverage
 llama_cache
 .smoke-results
+_unused/
+start-*.bat
+start-*.ps1

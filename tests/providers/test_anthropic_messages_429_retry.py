@@ -13,7 +13,7 @@ from tests.providers.test_anthropic_messages import (
     MockRequest,
     NativeProvider,
 )
-from tests.stream_contract import assert_canonical_stream_error_envelope
+from tests.contracts.stream_contract import assert_canonical_stream_error_envelope
 
 
 @pytest.fixture

@@ -7,7 +7,7 @@ import pytest
 
 from providers.base import ProviderConfig
 from providers.ollama import OLLAMA_DEFAULT_BASE, OllamaProvider
-from tests.stream_contract import assert_canonical_stream_error_envelope
+from tests.contracts.stream_contract import assert_canonical_stream_error_envelope
 
 
 class MockMessage:

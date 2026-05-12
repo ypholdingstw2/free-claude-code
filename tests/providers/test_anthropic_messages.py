@@ -11,7 +11,7 @@ from core.anthropic.sse import format_sse_event
 from core.anthropic.stream_contracts import event_index, parse_sse_text
 from providers.anthropic_messages import AnthropicMessagesTransport
 from providers.base import ProviderConfig
-from tests.stream_contract import assert_canonical_stream_error_envelope
+from tests.contracts.stream_contract import assert_canonical_stream_error_envelope
 
 
 class NativeProvider(AnthropicMessagesTransport):

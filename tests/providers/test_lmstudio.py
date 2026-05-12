@@ -8,7 +8,7 @@ import pytest
 from config.constants import ANTHROPIC_DEFAULT_MAX_OUTPUT_TOKENS
 from providers.base import ProviderConfig
 from providers.lmstudio import LMStudioProvider
-from tests.stream_contract import assert_canonical_stream_error_envelope
+from tests.contracts.stream_contract import assert_canonical_stream_error_envelope
 
 
 class MockMessage:
